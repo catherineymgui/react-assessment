@@ -56,7 +56,11 @@ class App extends Component {
                     <h2 className="App-questionText">
                       {this.props.questions[video.questionId]}
                     </h2>
-                    <ReactPlayer url={video.src} controls />
+                    <ReactPlayer
+                      className="App-videoPlayer"
+                      url={video.src}
+                      controls
+                    />
                   </div>
                 );
               })}
