@@ -1,57 +1,68 @@
-# Knockri Full Stack (React) Coding Assessment
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview
+## Available Scripts
 
-To complete this assessment, you will need to write a simple [React](https://facebook.github.io/react/) web app, and provide us the source files to be built.
+In the project directory, you can run:
 
-The purpose of this assessment is to assess your **skills and approach to composing a simple web app** given an API feed.  We will also assess the **generated HTML, CSS, and JS** output.
+### `npm start`
 
-This assessment is expected to take about 1-2 hours.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## What to do?
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Your goal is to implement a simple React application, where users will be able to view a job candidate's video responses, comment on the responses & save the data. The UX/UI is totally up to you.
+### `npm test`
 
-Although its a very basic exercise, we will be looking for simple, well-designed, well-commented and tested code in the submission.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Please include a `README` with setup instructions, and any other documentation you created as part of your solution.
+### `npm run build`
 
-Also, add very short info for the following to your `README`:
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* How did you decide which technologies to use as part of your solution?
-* Are there any improvements you could make to your submission?
-* What would you do differently if you were allocated more time?
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-Once you complete implementation, please send us the link to the hosted repository (e.g. Github, Bitbucket...). Alternatively, you may submit your code as a ZIP file too.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## How should the application work?
+### `npm run eject`
 
-The user of this react application should be able to view the video response(s) of job candidates applying for a job at their company. The application should have the following workflow,
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Choose candidate from a list.
-2. Depending on the selection in the first step, if the selected candidate has an application, display the video response(s) of the candidate with the relevant question displayed in text. If the selected candidate does not have an application, display appropriate message.
-3. For each video response of a candidate, provide an option to enter comments.
-4. Provide a "Save" button that saves the comments to the api.json file.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Requirements
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Only step 1 should be visible when no candidate is picked. Step 1,2,3 and 4 should be visible when a candidate is picked.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* User should be able to change candidate selection at any time.
+## Learn More
 
-* You can use whatever libraries, task runners and build processes you like. React and plain JavaScript are the only requirements (ES6 encouraged, but no TypeScript, CoffeeScript, etc). Redux is strongly encouraged if you see a need for it.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## API Usage
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-API can be launched using npm start. You will need to run npm install once you starting working on the project to install dependencies.
+### Code Splitting
 
-| Endpoint                     | Result                                              |
-|------------------------------|-----------------------------------------------------|
-| /candidates                  | Lists all available candidates                      |
-| /questions                   | Lists all available questions                       |
-| /applications                | Lists all available applications                    |
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-More info about API usage can be found at the [json-server repo](https://github.com/typicode/json-server).
+### Analyzing the Bundle Size
 
----
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -1,18 +1,33 @@
 {
-  "name": "fullstack-coding-challenge-react",
-  "version": "1.0.0",
-  "description": "A package containing a candidate API, which should be used in the challenge",
-  "main": "index.js",
-  "scripts": {
-    "start": "json-server --port 3010 --watch api.json"
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-dropdown": "^1.6.2",
+    "react-player": "^1.8.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.2"
   },
-  "keywords": [
-    "\"react\"",
-    "\"hiring\""
-  ],
-  "author": "Knockri Inc.",
-  "license": "ISC",
-  "devDependencies": {
-    "json-server": "^0.14.0"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -1,0 +1,32 @@
+.Card-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 8px;
+}
+
+.Card-headerText {
+  font-size: calc(4px + 2vmin);
+  color: #282c34;
+  margin: 8px;
+}
+
+.Card-cardText {
+  font-size: calc(2px + 1vmin);
+  color: #282c34;
+  margin: 8px;
+  text-align: left;
+}
+
+.Card-image {
+  margin: 8px;
+  width: 90%;
+}
+
+.Card-button {
+  margin: 8px;
+  width: 80%;
+}
